@@ -10,7 +10,7 @@ a:hover{
 .redtext{color:red;
 font-weight:bold;}
 body{
-	width:1060px;
+	max-width:1060px;
 	margin:0 auto;
 }
 .n-divider__title{
