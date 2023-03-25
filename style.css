@@ -61,8 +61,7 @@ header, footer{
 }
 
 .text{
-	margin:20px 50px;
-	padding:20px 30px;
+	max-width:760px;
 	background:#eee;
 }
 
