@@ -1,14 +1,28 @@
 @charset "UTF-8";
 a{
 	text-decoration: none;
-	color:black;
+	color:blue;
 }
 a:hover{
+	border-bottom:solid 1px blue;
+}
+.siteRecommend-grid a{
+	text-decoration: none;
+	color:black;
+}
+.siteRecommend-grid a:hover{
 	color:black;
 }
 
-.redtext{color:red;
-font-weight:bold;}
+ul li{
+	font-size:24px;
+	padding:5px 15px;
+}
+img{
+	width:300px;
+}
+.redtext{color:red;font-weight:bold;}
+.bluetext{color:blue;font-weight:bold;}
 body{
 	max-width:1060px;
 	margin:0 auto;
@@ -56,15 +70,15 @@ body{
   font-size: 30px;
 }
 
-header, footer{
+header{
 	margin:20px auto;
 }
 
 .text{
 	max-width:760px;
 	margin:0 auto;
-	padding:10px;
-	background:#eee;
+	padding:20px 15px;
+	background:#f5f5f5;
 }
 
 .item{
